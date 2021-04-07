@@ -1,0 +1,23 @@
+:host {
+    background:  rgb(0, 66, 66); 
+    size: 200px 200px;
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: auto;
+}
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+  .bd-blue-100 {  background-color: rgb(229, 229, 231); }
+  
+
+  .rounded-lb {
+    border-radius:          50rem;
+    
+  }
