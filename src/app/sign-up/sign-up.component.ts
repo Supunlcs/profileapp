@@ -6,7 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sign-up.component.scss']
 })
 export class SignUpComponent implements OnInit {
-
+   modal:any = document.getElementById('id01');
+   event:any;
+    
+  // When the user clicks anywhere outside of the modal, close it
+  onclick() {
+    
+  }
   constructor() { }
 
   ngOnInit(): void {
